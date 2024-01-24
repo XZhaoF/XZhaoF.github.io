@@ -1,0 +1,51 @@
+
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+.logo {
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+}
+
+.desktopItemMenuList {
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.desktopItemMenuList:hover {
+    color: #FAC2C1;
+    padding-bottom: 0.4rem;
+    border-bottom: 5px solid #FAC2C1;
+}
+
+.desktopMenuBtn{
+    display: inline-block;
+    border: none;
+    background: url('../../assets/contact_me_img.JPG') no-repeat;
+    background-size: cover;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 2rem;    
+    margin: 1rem;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.desktopMenuImg {
+    display: none;
+}
