@@ -1,7 +1,7 @@
 #intro {
     height: calc(100vh - 5rem);
     width: 100vw;
-    max-width: 75rem;
+    max-width: 100rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -9,10 +9,123 @@
 
 .me {
     position: absolute;
-    top: 10rem;
+    top: 12rem;
     right: 0;
     z-index: -1;
-    height: 40vh;
+    height: 42vh;
     object-fit:cover;
-    filter: drop-shadow(5px 5px 5px black)
+    filter: drop-shadow(5px 5px 5px black);
 }
+
+.introContent {
+    min-height: 70vh;
+    width: 100vw;
+    padding: 1rem;
+    font-size: 5rem;
+    font-weight: 650;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.word1 {
+    display: inline-block;
+    background-image: url('../../assets/berkeley_tower.JPG');
+    background-repeat: repeat;
+    background-size:contain;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.word2 {
+    display: inline-block;
+    background-image: url('../../assets/matcha_powder.JPG');
+    background-repeat: repeat;
+    background-size:contain;
+    background-position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.word3 {
+    display: inline-block;
+    background-image: url('../../assets/dan_heng.JPG');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.word4 {
+    display: inline-block;
+    background-image: url('../../assets/porter_robinson.JPG');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.hello {
+    font-style:italic;
+    font-size: 3rem;
+    font-weight: 400;
+    color:yellow;
+}
+
+.intro-name {
+    color: #DC9F79;
+    font-weight: 700;
+}
+
+.intro-text {
+    font-weight: 550;
+}
+
+.intro-paragraph {
+    font-weight: 500;
+    font-size: 4rem;
+    font-style: italic;
+    color:aqua;
+}
+
+
+.sliding-words {
+    overflow: hidden;
+    white-space: nowrap;
+    height: 7rem; /* Adjust the height as needed */
+    display: block;
+}
+
+.word1 {
+    background-image: 
+}
+
+.sliding-words span {
+    color:skyblue;
+    height: 7rem; /* Adjust the height as needed */
+    font-size: 5.3rem;
+    display: block;
+    animation: slide 15s ease infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes slide {
+    0%, 20% { transform: translateY(0); } 
+    25%, 45% { transform: translateY(-7rem); } 
+    50%, 70% { transform: translateY(-14rem); } 
+    75%, 95% { transform: translateY(-21rem); } 
+    100%, 120% { transform: translateY(-28rem); }
+}
+
+/* @keyframes slide {
+    0%, 8.33% { transform: translateY(0); } 
+    25%, 33.33% { transform: translateY(-5rem); } 
+    50%, 58.33% { transform: translateY(-10rem); }
+    75%, 83.33% { transform: translateY(-15rem); } 
+    100% { transform: translateY(0); }
+} 
+*/

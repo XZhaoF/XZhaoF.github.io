@@ -22,8 +22,8 @@ const Animation = (props) => {
           scaleMobile: 1.00,
           color: 0xe634c4,
           points: 20.00,
-          maxDistance: 16.00,
-          spacing: 18.00,
+          maxDistance: 14.00,
+          spacing: 19.00,
           showDots: false
         }))
       }

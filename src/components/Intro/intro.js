@@ -3,17 +3,22 @@ import './intro.css';
 import me from '../../assets/me.PNG';
 
 const Intro = () => {
+
   return (
-    <section id="intro">
-
-        <div className="introContent">
-            <span className="hello">Hey</span>
-            <span className="intro-text">My name is <span className = "intro-name">Zhao</span> </span>
-            <p className="intro-paragraph">I'm an aspiring Software Developer, and Computer Science student at UC Berkeley</p>
-        </div>
-
-        <img src={me} alt="Profile" className="me" />
-    </section>
+      <section id="intro">
+          <div className="introContent">
+              <span className="hello">Hey There ~ </span>
+              <span className="intro-text">My name is <span className="intro-name">Zhao,</span></span>
+              <span className="intro-paragraph">I'm a ...</span>
+              <div className="sliding-words">
+                  <span className="word1">CS Student @ UC Berkeley  </span>
+                  <span className="word2">Matcha Lover </span>
+                  <span className="word3">Gamer </span>
+                  <span className="word4">Porter Robinson Fan </span>
+              </div>
+          </div>
+          <img src={me} alt="Profile" className="me" />
+      </section>
   );
 }
 
