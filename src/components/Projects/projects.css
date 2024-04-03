@@ -1,0 +1,93 @@
+#projects {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20rem;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.titleDesc{
+    font-weight: 200;
+    font-size: 2rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.projectBars {
+    margin: 2rem;
+    width: 100vw;
+    max-width: 100%;
+    text-align: left;
+}
+
+.projectBar {
+    display: flex;
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgba(66, 45, 99, 0.9);
+}
+
+.projectBarImg {
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+    margin-right: 2rem;
+}
+
+.projectBarText {
+    font-size: 1.2rem;
+
+}
+
+.projectBarText_tech {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
+@media screen and (max-width: 900px) {
+    #projects {
+        max-width: 90%;
+    }
+
+    .projectBarText>p {
+        font-size: 2vw;
+    }
+
+    .projectBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    .projectBarText>h2 {
+        font-size: 5vw;
+    }
+
+    .projectBarText_tech {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+        width: 80vw;
+    }
+
+    .titleDesc {
+        font-size: 1.5rem;
+    }
+}
+

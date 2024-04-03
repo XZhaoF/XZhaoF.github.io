@@ -1,0 +1,173 @@
+#technologies {
+    margin: 0 auto;
+    min-height: calc(100vh - 10rem);
+    width: 100vw;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+    margin-top: 10rem;
+}
+
+.techTitle {
+    margin: 2rem 0rem;
+    font-size: 5rem;
+}
+
+.techDescription{
+    font-weight: 200;
+    font-size: 2rem;
+    max-width: 70rem;
+    padding: 0;
+}
+
+.LanguagesTitle{
+    font-weight: 300;
+    font-size: 3.5rem;
+    padding-top: 3rem;
+}
+
+.techBoxes {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background: rgba(66, 45, 99, 0.9);
+}
+
+.techBox {
+    padding: 3rem 4rem;
+}
+
+.techImg {
+    object-fit: cover;
+    height: 10rem;
+}
+
+.ToolsTitle {
+    font-weight: 300;
+    font-size: 3.5rem;
+    padding-top: 3rem;
+}
+
+.toolBoxes {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background: rgba(66, 45, 99, 0.9);
+}
+
+.toolBox {
+    padding: 3rem 4rem;
+}
+
+.toolImg {
+    object-fit: cover;
+    height: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+    .techTitle {
+        font-size: 2rem;
+        width: 80vw;
+    }
+
+    .techDescription{
+        font-size: 1.5rem;
+    }
+
+    .ToolsTitle {
+        font-size: 2rem;
+        width: 80vw;
+    }
+
+    .LanguagesTitle {
+        font-size: 2rem;
+        width: 80vw;
+    }
+
+    .techBox {
+        padding: 2rem 3rem;
+    }
+    
+    .techImg {
+        object-fit: cover;
+        height: 5rem;
+    }
+
+    .toolBoxes {
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        max-width: 100%;
+        flex-wrap: wrap;
+        background: rgba(66, 45, 99, 0.9);
+    }
+    
+    .toolBox {
+        padding: 2rem 3rem;
+    }
+    
+    .toolImg {
+        object-fit: cover;
+        height: 5rem;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .techTitle {
+        font-size: 2rem;
+        width: 80vw;
+    }
+
+    .techDescription{
+        font-size: 1.5rem;
+    }
+
+    .ToolsTitle {
+        font-size: 2rem;
+        width: 80vw;
+    }
+
+    .LanguagesTitle {
+        font-size: 2rem;
+        width: 80vw;
+    }
+
+    .techImg {
+        height: 3rem;
+    }
+
+    .techBox>h2 {
+        font-size: 1rem;
+    }
+
+    .techBox {
+        padding: 1rem 1rem;
+    }
+    
+    .toolImg {
+        height: 3rem;
+    }
+
+    .toolBox>h2 {
+        font-size: 1rem;
+    }
+
+    .toolBox {
+        padding: 1rem 1rem;
+    }
+}

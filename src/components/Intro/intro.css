@@ -1,5 +1,5 @@
 #intro {
-    height: max(100vh, 600px);
+    height: 1000px;
     width: 100vw;
     max-width: 100rem;
     margin: 0 auto;
@@ -126,7 +126,7 @@
 
 @media screen and (max-width: 1360px) {
     #intro {
-      height: max(100vh, 900px);
+      height: 1000px;
       width: 100vw;
       max-width: 100%;
       margin: 0 auto;
@@ -140,12 +140,12 @@
   
     .me {
       top: 1rem;
-      margin-top: 20rem;
+      margin-top: 30rem;
       position: absolute;
       right: auto;
       z-index: -1;
-      height: 400px;
-      width: 400px;
+      height: 450px;
+      width: 450px;
       object-fit: cover;
       filter: drop-shadow(5px 5px 5px black);
     }
@@ -163,46 +163,34 @@
       margin-top: 5rem;
     }
   
-    .hello {
-      font-size: 1.8rem;
-    }
-  
-    .intro-text {
-      font-size: 1.8rem;
-    }
-  
-    .intro-paragraph {
-      font-size: 1.8rem;
-    }
-  
     .sliding-words {
       overflow: hidden;
       white-space: nowrap;
-      height: 4rem;
+      height: 5rem;
       display: block;
     }
   
     .sliding-words span {
-      font-size: 2.3rem;
+      font-size: 3.5rem;
       font-weight: 800;
-      height: 4rem;
+      height: 5rem;
       display: block;
       animation: slide 12s ease infinite;
     }
   
     @keyframes slide {
       0%, 20% { transform: translateY(0); } 
-      25%, 45% { transform: translateY(-4rem); } 
-      50%, 70% { transform: translateY(-8rem); } 
-      75%, 95% { transform: translateY(-12rem); } 
-      100%, 120% { transform: translateY(-16rem); }
+      25%, 45% { transform: translateY(-5rem); } 
+      50%, 70% { transform: translateY(-10rem); } 
+      75%, 95% { transform: translateY(-15rem); } 
+      100%, 120% { transform: translateY(-20rem); }
     }
   }
 
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 768px) {
     #intro {
-      height: max(100vh, 500px);
+      height: 450px;
       width: 100vw;
       max-width: 100%;
       margin: 0 auto;

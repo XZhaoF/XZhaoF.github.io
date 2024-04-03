@@ -50,7 +50,44 @@
     display: none;
 }
 
+.active {
+    color: #FAC2C1;
+    padding-bottom: 0.4rem;
+    border-bottom: 5px solid #FAC2C1;
+}
+
+.mobMenu {
+    display: none;
+    object-fit: cover;
+    height: 3rem;
+
+}
+
+.mobileMenu {
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgba(25, 22, 26, 0.9);
+    border-radius: 1rem;
+}
+
+.MenuList {
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+}
+
 @media screen and (max-width: 768px) {
+    .mobMenu {
+        display: flex;
+    }
+
     .navbar {
         height: 4rem;
         padding: 0 1rem; /* Adjust padding as needed */
